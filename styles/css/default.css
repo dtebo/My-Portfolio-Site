@@ -22,6 +22,12 @@ h1, h2, h3, h4, h5 {
 
 /* My Styles */
 
+/* Wrapper Styles */
+.wrapper{
+    background-color: #8a91a1;
+    height: 100vh;
+}
+
 /* Header Styles */
 .site-header{
     display: flex;
@@ -56,7 +62,7 @@ h1, h2, h3, h4, h5 {
 
 /* Content Styles */
 .content{
-    height: 85vh;
+    
 }
 
 /* Footer Styles */
@@ -64,9 +70,10 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 5px 10px;
 }
 
 .address-info{
-    color: #9a9a9a;
+    color: #494949;
     font-size: 1.3em;
 }

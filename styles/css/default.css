@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5 {
 .site-header{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .site-header nav{
@@ -50,6 +50,23 @@ h1, h2, h3, h4, h5 {
 
 .logo{
     font-size: 2em;
+    letter-spacing: 2px;
     margin: 10px 0 10px 10px;
 }
 
+/* Content Styles */
+.content{
+    height: 85vh;
+}
+
+/* Footer Styles */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.address-info{
+    color: #9a9a9a;
+    font-size: 1.3em;
+}

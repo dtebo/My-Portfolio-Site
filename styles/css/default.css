@@ -1,0 +1,55 @@
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	padding: 0;
+  	margin: 0;
+  	max-width: 100%;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* My Styles */
+
+/* Header Styles */
+.site-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.site-header nav{
+    margin: 10px 0 10px 0;
+}
+
+.site-header nav ul{
+    list-style: none;
+}
+
+.site-header nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.site-header nav ul li a{
+    color: #000000;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 2em;
+    margin: 10px 0 10px 10px;
+}
+

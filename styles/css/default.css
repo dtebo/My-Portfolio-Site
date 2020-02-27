@@ -69,12 +69,17 @@ h1, h2, h3, h4, h5 {
     height: 85vh;
 }
 
+.content a{
+    text-decoration: none;
+}
+
 .nav-grid{
     display: grid;
     font-size: 1.8em;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
-    height: 400px;
+    height: 600px;
+    width: 800px;
 }
 
 #top-center{
@@ -85,6 +90,19 @@ h1, h2, h3, h4, h5 {
 #right-center{
     grid-column: 3;
     grid-row: 2;
+}
+
+#profile-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-img img{
+    border-radius: 50%;
+    height: 240px;
+    width: 220px;
 }
 
 #bottom-center{

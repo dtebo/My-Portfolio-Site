@@ -92,16 +92,18 @@ h1, h2, h3, h4, h5 {
     grid-row: 2;
 }
 
-#profile-img{
+/* #profile-img{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
+    padding: 80px 0 0 80px;
+} */
 
 #profile-img img{
     border-radius: 50%;
     height: 240px;
+    left: 180px;
+    position: relative;
+    top: 80px;
     width: 220px;
 }
 

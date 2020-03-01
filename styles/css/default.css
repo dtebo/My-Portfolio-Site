@@ -85,23 +85,24 @@ h1, h2, h3, h4, h5 {
 }
 
 .nav-container a{
+    color: #ffffff;
     display: block;
     font-size: 2em;
     position: absolute;
     text-decoration: none;
     width: 6em;
-    height: 6em;
+    height: 1em;
     top: 32%;
     left: 50%;
     margin: -2em;
 }
 
 .top-center{
-    transform: translate(0px, -150px);
+    transform: translate(-7px, -150px);
 }
 
 .right-center{
-    transform: translate(260px, 80px);
+    transform: translate(265px, 85px);
 }
 
 .nav-container img{
@@ -112,11 +113,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .bottom-center{
-    transform: translate(0px, 320px);
+    transform: translate(0px, 340px);
 }
 
 .left-center{
-    transform: translate(-260px, 80px);
+    transform: translate(-280px, 85px);
 }
 
 /* Footer Styles */
@@ -128,6 +129,6 @@ footer{
 }
 
 .address-info{
-    color: #494949;
+    color: #dadada;
     font-size: 1.3em;
 }

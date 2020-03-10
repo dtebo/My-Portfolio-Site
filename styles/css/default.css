@@ -29,30 +29,45 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Header Styles */
-/* .site-header{
+.nav-header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.site-header nav{
-    margin: 10px 0 10px 0;
-}
-
-.site-header nav ul{
-    list-style: none;
-}
-
-.site-header nav ul li{
+.nav-header nav{
     display: inline-block;
-    margin-right: 10px;
+    width: 400px;
 }
 
-.site-header nav ul li a{
-    color: #000000;
-    font-size: 1.8em;
+.nav-header nav a{
+    color: #585858;
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 20px;
     text-decoration: none;
-} */
+    width: 6em;
+}
+
+.address-wrapper{
+    width: 40%;
+}
+
+.address-info{
+    color: #dadada;
+    font-size: 1.3em;
+    vertical-align: text-bottom;
+}
+
+.address-info p:nth-of-type(1) {
+    color: #000;
+    font-size: 1.5em;
+}
+
+.address-info p:nth-of-type(2), .address-info p:nth-of-type(3), .address-info p:nth-of-type(4){
+    color: #4db572;
+    font-size: 1.4em;
+}
 
 .logo{
     color: #4db572;
@@ -70,73 +85,32 @@ h1, h2, h3, h4, h5 {
 
 /* Navigation Styles */
 
-/* Thank you for the positioning suggestion Ana! */
-/* Example from https://stackoverflow.com/questions/12813573/position-icons-into-circle */
-/* Modified by Darren Tebo */
-
-.nav-container{
-    position: relative;
-    width: 400px;
+.social-media-links{
+    position: absolute;
     top: 10px;
-    left: 45px;
-    /* padding: 10px; */
-    border-radius: 50%;
-    margin: auto 0;
+    right: 10px;
+    z-index: 100;
 }
 
-.nav-container a{
+.social-media-links a{
     color: #ffffff;
     display: block;
     font-size: 2em;
-    position: absolute;
+    margin-bottom: 10px;
     text-decoration: none;
     width: 6em;
     height: 1em;
-    top: 32%;
-    left: 50%;
-    margin: -2em;
 }
 
 .profile-img{
-    /*display: inline-block; */
-    vertical-align: middle;
+    vertical-align: text-bottom;
     border-radius: 50%;
     height: 110px;
     padding: 10px;
+    float: left;
+    shape-outside: circle();
     width: 100px;
 }
-
-/* .top-center{
-    transform: translate(-7px, -150px);
-}
-
-.top-center:hover{
-    color: #ff8a47;
-}
-
-.right-center{
-    transform: translate(265px, 85px);
-}
-
-.right-center:hover{
-    color: #44f091;
-}
-
-.bottom-center{
-    transform: translate(0px, 340px);
-}
-
-.bottom-center:hover{
-    color: #44e4f0;
-}
-
-.left-center{
-    transform: translate(-280px, 85px);
-}
-
-.left-center:hover{
-    color: #449ff0;
-} */
 
 /* Footer Styles */
 footer{
@@ -144,16 +118,4 @@ footer{
     flex-direction: row;
     justify-content: space-between;
     padding: 5px 10px;
-}
-
-.address-info{
-    color: #dadada;
-    display: inline-block;
-    font-size: 1.3em;
-    vertical-align: middle;
-}
-
-.address-info p:nth-child(1){
-    color: #000;
-    font-size: 1.5em;
 }

@@ -24,12 +24,12 @@ h1, h2, h3, h4, h5 {
 
 /* Wrapper Styles */
 .wrapper{
-    background-color: #8a91a1;
+    background-image: linear-gradient(to bottom right, #0ceaf1, #02e4ab);
     height: 100vh;
 }
 
 /* Header Styles */
-.site-header{
+/* .site-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,10 +52,10 @@ h1, h2, h3, h4, h5 {
     color: #000000;
     font-size: 1.8em;
     text-decoration: none;
-}
+} */
 
 .logo{
-    color: #dadada;
+    color: #4db572;
     font-size: 2.4em;
     letter-spacing: 2px;
     margin: 10px 0 10px 10px;
@@ -64,8 +64,8 @@ h1, h2, h3, h4, h5 {
 /* Content Styles */
 .content{
     background-color: #ffffff;
-    clip-path: polygon(0% 0%, 80% 0%, 100% 100%, 10% 100%);
-    height: 85vh;
+    clip-path: polygon(0% 0%, 80% 0%, 100% 30%, 100% 100%, 20% 100%, 0% 65%);
+    height: 99.99vh;
 }
 
 /* Navigation Styles */
@@ -77,7 +77,9 @@ h1, h2, h3, h4, h5 {
 .nav-container{
     position: relative;
     width: 400px;
-    padding: 10px;
+    top: 10px;
+    left: 45px;
+    /* padding: 10px; */
     border-radius: 50%;
     margin: auto 0;
 }
@@ -95,11 +97,12 @@ h1, h2, h3, h4, h5 {
     margin: -2em;
 }
 
-.nav-container img{
-    display: block;
+.profile-img{
+    display: inline-block;
+    vertical-align: text-top;
     border-radius: 50%;
-    height: 158px;
-    width: 150px;
+    height: 110px;
+    width: 100px;
 }
 
 /* .top-center{
@@ -144,5 +147,6 @@ footer{
 
 .address-info{
     color: #dadada;
+    display: inline-block;
     font-size: 1.3em;
 }
